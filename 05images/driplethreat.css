@@ -1,0 +1,160 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header Stuff Goes Here */
+header {
+    background-color: #000;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #e3eff8;
+    font-size: 6rem;
+}
+header p {
+    margin: 0;
+    color: #e3eff8;
+    letter-spacing: .5px;
+    font-size: 1.6rem;
+}
+
+/* Nav Stuff Goes Here */
+nav {
+    background-color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: block;
+    padding: .70rem 2rem;
+}
+nav li.active a {
+    background-color: orange;
+}
+
+nav a:hover {
+    color: #5b2bdb;
+}
+
+/* Stuff for the main */
+main {
+    padding: 1rem 2vw;
+    background-color: #000;
+}
+main h1 {
+    color: #e3eff8;
+}
+main h2 {
+    color: #e3eff8;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #e3eff8;
+    margin: 0 0 .3rem 0;
+}
+main a {
+    color: #8d82db;
+}
+main a:hover {
+    color: #5b2bdb  
+}
+
+main ol {
+    padding: .5rem 2vw;
+    background-color: white;
+    width: 24.5rem;
+    border: 6px solid #55af6f;
+    border-radius: .5rem;
+    color: #000;
+    list-style: upper-roman;
+    font-size: 1.2rem; 
+    line-height: 150%
+}
+main ul {
+    color: #e3eff8;
+    list-style: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+main h3 {
+    color: #e3eff8
+}
+
+main address {
+    font-style: normal;
+    color: #e3eff8;
+    width: 8rem;
+    text-align: center;
+}
+
+main dl dt {
+    color: #e3eff8;
+    font-weight: 700;
+}
+main dl dt {
+    color: #55af6f;
+    font-size: .9rem;
+}
+main dd {
+    color: #e3eff8;
+}
+
+figure.frontpage {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.frontpage img {
+    width: 100%;
+    height: auto;
+}
+
+figure.frontpage figcaption {
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: white;
+}
+
+/* footer stuff goes here*/
+footer {
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 1rem 0;
+    font-size: .9rem;
+}
+footer a {
+    color: #5b2bdb
+}
